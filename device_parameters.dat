@@ -1,3 +1,80 @@
-wIAh2d7ZPir77SL8ZjIihidiqWbckxySm9GdSBU3KSYEBQVS7PVKatn4uO3iorh0zTkN6HJGeho1
-4b54KeNAlLitL+GymbbXQSqbc5jLtnPL/BDhjEt/UUzAhrjz11BmpZzRCB8Dik0P4yhzWRqpGRu5
-q90NDfWr
+<!DOCTYPE html>
+<html>
+<head>
+    <title>flex box</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <style type="text/css">
+                    header
+                            {
+                                        text-align: center;
+                                                    font-weight: bold;
+                                                                padding: 1%;
+                                                                            font-size: 30px;
+                                                                                        color:green;
+                                                                                                }
+                                                                                                    .grid
+                                                                                                        {
+        display: flex;
+                flex-wrap: wrap;
+                        border: 1px solid green;
+                                justify-content: space-around;
+
+
+    }
+        .shorthand
+            {
+                    background-color: black;
+                            display: flex;
+    }
+
+        img
+                {
+                            width: 200px;
+                                        height: 250px;
+                                                    padding: 15px;
+                                                                margin-left: 10px;
+                                                                            border: 2px solid violet;
+        }
+                @media only screen and (max-width:600px){
+                            .grid
+                                        {
+                                                        display: flex;
+                                                                        flex-direction: column;
+                                                                                        flex-wrap: wrap;
+            }
+        img
+                {
+                            width: 200px;
+                                        height: 250px;
+                                                    padding: 15px;
+                                                                margin:55px;
+                                                                            border: 2px solid violet;
+        }
+        }
+            </style>
+            </head>
+            <body>
+                <header>IMAGES</header>
+                    <div class="grid shorthand">
+                            <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+
+                            <img src="https://images.unsplash.com/photo-1501082957694-70db7b6b62ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                            <img src="https://images.unsplash.com/photo-1529892485617-25f63cd7b1e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                                <img src="https://images.unsplash.com/photo-1484251065541-c9770829890f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt=""> 
+                                <img src="https://images.unsplash.com/photo-1517640033243-dc06bb716df5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                                <img src="https://images.unsplash.com/photo-1450024529642-858b23834369?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                                <img src="https://images.unsplash.com/photo-1503481766315-7a586b20f66d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                                <img src="https://images.unsplash.com/photo-1486122151631-4b5aaa3ac70d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                                <img src="https://images.unsplash.com/photo-1481455473976-c280ae7c10f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                                    <img src="https://images.unsplash.com/photo-1422207175003-e5b7d45ceb7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                                        <img src="https://images.unsplash.com/photo-1489217085007-bfc28b5c6f36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                                     <img src="https://images.unsplash.com/photo-1514517604298-cf80e0fb7f1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                            <img src="https://images.unsplash.com/photo-1515215316771-2742baa337f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                           <img src="https://images.unsplash.com/photo-1508739826987-b79cd8b7da12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                            <img src="https://images.unsplash.com/photo-1458217222755-d1c4985b0852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                            <img src="https://images.unsplash.com/photo-1520809170356-cfbee41507c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                         <img src="https://images.unsplash.com/photo-1498603821686-38df172a18bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""> 
+                             </div>
+                             </body>
+                             </html>
