@@ -7,49 +7,47 @@
                     header
                             {
                                         text-align: center;
-                                                    font-weight: bold;
-                                                                padding: 1%;
-                                                                            font-size: 30px;
-                                                                                        color:green;
-                                                                                                }
-                                                                                                    .grid
-                                                                                                        {
-        display: flex;
-                flex-wrap: wrap;
+                                        font-weight: bold;
+                                        padding: 1%;
+                                        font-size: 30px;
+                                        color:green;
+                             }
+                    .grid
+                    {
+                        display: flex;
+                        flex-wrap: wrap;
                         border: 1px solid green;
-                                justify-content: space-around;
+                        justify-content: space-around;
+                     }
+                   .shorthand
+                    {
+                         background-color: black;
+                         display: flex;
+                    }
 
-
-    }
-        .shorthand
-            {
-                    background-color: black;
-                            display: flex;
-    }
-
-        img
-                {
-                            width: 200px;
-                                        height: 250px;
-                                                    padding: 15px;
-                                                                margin-left: 10px;
-                                                                            border: 2px solid violet;
-        }
-                @media only screen and (max-width:600px){
+                    img
+                    {
+                          width: 200px;
+                          height: 250px;
+                          padding: 15px;
+                          margin-left: 10px;
+                          border: 2px solid violet;
+                     }
+                    @media only screen and (max-width:600px){
                             .grid
-                                        {
-                                                        display: flex;
-                                                                        flex-direction: column;
-                                                                                        flex-wrap: wrap;
-            }
-        img
-                {
-                            width: 200px;
-                                        height: 250px;
-                                                    padding: 15px;
-                                                                margin:55px;
-                                                                            border: 2px solid violet;
-        }
+                             {
+                                display: flex;
+                                flex-direction: column;
+                                flex-wrap: wrap;
+                             }
+                   img
+                   {
+                         width: 200px;
+                         height: 250px;
+                         padding: 15px;
+                         margin:55px;
+                         border: 2px solid violet;
+                   }
         }
             </style>
             </head>
